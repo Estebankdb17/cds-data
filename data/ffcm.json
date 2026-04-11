@@ -1,0 +1,120 @@
+{
+  "updated": "2026-04-11T23:38:03.973Z",
+  "clasificacion": [
+    {
+      "posicion": "1",
+      "equipo": "SANTA CRUZ UJAF C.F.",
+      "puntos": "63",
+      "es_cds": false
+    },
+    {
+      "posicion": "2",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos": "51",
+      "es_cds": true
+    },
+    {
+      "posicion": "3",
+      "equipo": "A.D. SESEÑA C.F.",
+      "puntos": "43",
+      "es_cds": false
+    },
+    {
+      "posicion": "4",
+      "equipo": "A.C.D.M. HORCHE",
+      "puntos": "43",
+      "es_cds": false
+    },
+    {
+      "posicion": "5",
+      "equipo": "A.D. HOGAR ALCARREÑO",
+      "puntos": "42",
+      "es_cds": false
+    },
+    {
+      "posicion": "6",
+      "equipo": "ACADEMIA ALBICELESTE",
+      "puntos": "39",
+      "es_cds": false
+    },
+    {
+      "posicion": "7",
+      "equipo": "F.C. AÑOVER DE TAJO",
+      "puntos": "38",
+      "es_cds": false
+    },
+    {
+      "posicion": "8",
+      "equipo": "E.F.B. JESUS DE LA OSSA",
+      "puntos": "36",
+      "es_cds": false
+    },
+    {
+      "posicion": "9",
+      "equipo": "C.D. UGENA E.F.M.",
+      "puntos": "32",
+      "es_cds": false
+    },
+    {
+      "posicion": "10",
+      "equipo": "SP. CABANILLAS \"B\"",
+      "puntos": "31",
+      "es_cds": false
+    },
+    {
+      "posicion": "11",
+      "equipo": "C.D. SAGREÑO",
+      "puntos": "30",
+      "es_cds": false
+    },
+    {
+      "posicion": "12",
+      "equipo": "C.D. YUNQUERA",
+      "puntos": "29",
+      "es_cds": false
+    },
+    {
+      "posicion": "13",
+      "equipo": "C.D. OPTENSE",
+      "puntos": "28",
+      "es_cds": false
+    },
+    {
+      "posicion": "14",
+      "equipo": "YEPES C.F.",
+      "puntos": "23",
+      "es_cds": false
+    },
+    {
+      "posicion": "15",
+      "equipo": "C.D. EL CASAR",
+      "puntos": "18",
+      "es_cds": false
+    },
+    {
+      "posicion": "16",
+      "equipo": "C.R. FONTANAR",
+      "puntos": "17",
+      "es_cds": false
+    }
+  ],
+  "posicion_cds": {
+    "posicion": "2",
+    "puntos": "51",
+    "partidos_jugados": "13"
+  },
+  "proximo_partido": {
+    "jornada": "26",
+    "local": "F.C. AÑOVER DE TAJO",
+    "visitante": "C.D. SIGÜENZA",
+    "fechaHora": "12-04-2026  17:00"
+  },
+  "ultimo_resultado": {
+    "jornada": "25",
+    "local": "A.D. HOGAR ALCARREÑO",
+    "visitante": "C.D. SIGÜENZA",
+    "fechaHora": "22-03-2026  16:00",
+    "golesLocal": "0",
+    "golesVisitante": "1"
+  }
+}

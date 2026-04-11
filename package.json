@@ -1,0 +1,23 @@
+{
+  "name": "cds-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estebankdb17/cds-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estebankdb17/cds-data/issues"
+  },
+  "homepage": "https://github.com/Estebankdb17/cds-data#readme",
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
