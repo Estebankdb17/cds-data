@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-11T23:38:03.973Z",
+  "updated": "2026-04-12T00:08:07.354Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -107,14 +107,83 @@
     "jornada": "26",
     "local": "F.C. AÑOVER DE TAJO",
     "visitante": "C.D. SIGÜENZA",
-    "fechaHora": "12-04-2026  17:00"
+    "fecha": "12-04-2026  17:00"
   },
+  "proximos_partidos": [
+    {
+      "jornada": "27",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "E.F.B. JESUS DE LA OSSA",
+      "fecha": "19-04-2026",
+      "hora": null
+    },
+    {
+      "jornada": "28",
+      "local": "C.D. EL CASAR",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "26-04-2026",
+      "hora": null
+    },
+    {
+      "jornada": "29",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "ACADEMIA ALBICELESTE",
+      "fecha": "03-05-2026",
+      "hora": null
+    },
+    {
+      "jornada": "30",
+      "local": "C.D. OPTENSE",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "10-05-2026",
+      "hora": null
+    }
+  ],
   "ultimo_resultado": {
     "jornada": "25",
     "local": "A.D. HOGAR ALCARREÑO",
     "visitante": "C.D. SIGÜENZA",
-    "fechaHora": "22-03-2026  16:00",
+    "fecha": "22-03-2026  16:00",
+    "hora": null,
     "golesLocal": "0",
     "golesVisitante": "1"
-  }
+  },
+  "ultimos_resultados": [
+    {
+      "jornada": "24",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. UGENA E.F.M.",
+      "fecha": "15-03-2026  17:00",
+      "hora": null,
+      "golesLocal": "3",
+      "golesVisitante": "0"
+    },
+    {
+      "jornada": "23",
+      "local": "C.D. YUNQUERA",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "07-03-2026  17:00",
+      "hora": null,
+      "golesLocal": "3",
+      "golesVisitante": "1"
+    },
+    {
+      "jornada": "22",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.R. FONTANAR",
+      "fecha": "01-03-2026  16:45",
+      "hora": null,
+      "golesLocal": "3",
+      "golesVisitante": "1"
+    },
+    {
+      "jornada": "21",
+      "local": "A.C.D.M. HORCHE",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "22-02-2026  16:30",
+      "hora": null,
+      "golesLocal": "1",
+      "golesVisitante": "3"
+    }
+  ]
 }
