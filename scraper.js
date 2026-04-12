@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const URLS = {
-  clasificacion: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=22229516&codcompeticion=22229394&codjornada=30',
+  clasificacion: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=22229516&codcompeticion=22229394&',
   partidos: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?cod_primaria=1000123&codequipo=33055&codgrupo=22229516',
 };
 
