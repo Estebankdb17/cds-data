@@ -22,7 +22,10 @@ jobs:
         run: npm install
 
       - name: Ejecutar scraper
-        run: node scraper.js
+        run: |
+          node scraper.js
+          echo "=== JSON generado ==="
+          cat data/ffcm.json
 
       - name: Commit y push del JSON
         run: |
