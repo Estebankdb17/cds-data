@@ -12,37 +12,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Instalar dependencias del sistema para Puppeteer
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
-            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
-            libxfixes3 libxrandr2 libgbm1 libasound2t64
-
       - name: Instalar dependencias
         run: npm install
 
       - name: Ejecutar scraper
-        run: |
-          node scraper.js
-          echo "=== JSON generado ==="
-          cat data/ffcm.json
+        run: node scraper.js
 
       - name: Commit y push del JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main --rebase
           git add data/ffcm.json
           git diff --staged --quiet || git commit -m "chore: update ffcm data"
-          git push origin main
+          git push
