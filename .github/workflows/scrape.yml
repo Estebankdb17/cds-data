@@ -21,6 +21,9 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
+      - name: Instalar Chrome para Puppeteer
+        run: npx puppeteer browsers install chrome
+
       - name: Ejecutar scraper
         run: |
           node scraper.js
