@@ -1,16 +1,16 @@
 {
-  "updated": "2026-04-26T17:30:55.967Z",
+  "updated": "2026-04-26T18:36:11.469Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos": "65",
+      "puntos": "68",
       "es_cds": false
     },
     {
       "posicion": "2",
       "equipo": "C.D. SIGÜENZA",
-      "puntos": "55",
+      "puntos": "58",
       "es_cds": true
     },
     {
@@ -51,26 +51,26 @@
     },
     {
       "posicion": "9",
+      "equipo": "C.D. SAGREÑO",
+      "puntos": "37",
+      "es_cds": false
+    },
+    {
+      "posicion": "10",
       "equipo": "E.F.B. JESUS DE LA OSSA",
       "puntos": "36",
       "es_cds": false
     },
     {
-      "posicion": "10",
+      "posicion": "11",
       "equipo": "C.D. UGENA E.F.M.",
       "puntos": "35",
       "es_cds": false
     },
     {
-      "posicion": "11",
-      "equipo": "C.D. SAGREÑO",
-      "puntos": "34",
-      "es_cds": false
-    },
-    {
       "posicion": "12",
       "equipo": "SP. CABANILLAS \"B\"",
-      "puntos": "32",
+      "puntos": "35",
       "es_cds": false
     },
     {
@@ -82,7 +82,7 @@
     {
       "posicion": "14",
       "equipo": "YEPES C.F.",
-      "puntos": "24",
+      "puntos": "27",
       "es_cds": false
     },
     {
@@ -100,23 +100,17 @@
   ],
   "posicion_cds": {
     "posicion": "2",
-    "puntos": "55",
+    "puntos": "58",
     "partidos_jugados": "14"
   },
   "proximo_partido": {
-    "jornada": "28",
-    "local": "C.D. EL CASAR",
-    "visitante": "C.D. SIGÜENZA",
-    "fecha": "26-04-2026  18:00"
+    "jornada": "29",
+    "local": "C.D. SIGÜENZA",
+    "visitante": "ACADEMIA ALBICELESTE",
+    "fecha": "03-05-2026",
+    "hora": null
   },
   "proximos_partidos": [
-    {
-      "jornada": "29",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "ACADEMIA ALBICELESTE",
-      "fecha": "03-05-2026",
-      "hora": null
-    },
     {
       "jornada": "30",
       "local": "C.D. OPTENSE",
@@ -126,15 +120,24 @@
     }
   ],
   "ultimo_resultado": {
-    "jornada": "27",
-    "local": "C.D. SIGÜENZA",
-    "visitante": "E.F.B. JESUS DE LA OSSA",
-    "fecha": "18-04-2026  18:00",
+    "jornada": "28",
+    "local": "C.D. EL CASAR",
+    "visitante": "C.D. SIGÜENZA",
+    "fecha": "26-04-2026  18:00",
     "hora": null,
-    "golesLocal": "3",
-    "golesVisitante": "0"
+    "golesLocal": "0",
+    "golesVisitante": "3"
   },
   "ultimos_resultados": [
+    {
+      "jornada": "27",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "E.F.B. JESUS DE LA OSSA",
+      "fecha": "18-04-2026  18:00",
+      "hora": null,
+      "golesLocal": "3",
+      "golesVisitante": "0"
+    },
     {
       "jornada": "26",
       "local": "F.C. AÑOVER DE TAJO",
@@ -161,15 +164,6 @@
       "hora": null,
       "golesLocal": "3",
       "golesVisitante": "0"
-    },
-    {
-      "jornada": "23",
-      "local": "C.D. YUNQUERA",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "07-03-2026  17:00",
-      "hora": null,
-      "golesLocal": "3",
-      "golesVisitante": "1"
     }
   ]
 }
