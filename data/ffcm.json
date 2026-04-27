@@ -1,107 +1,107 @@
 {
-  "updated": "2026-04-27T10:05:25.423Z",
+  "updated": "2026-04-27T12:15:39.508Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos": "68",
+      "puntos": "2,4286",
       "es_cds": false
     },
     {
       "posicion": "2",
       "equipo": "C.D. SIGÜENZA",
-      "puntos": "58",
+      "puntos": "2,0714",
       "es_cds": true
     },
     {
       "posicion": "3",
       "equipo": "A.C.D.M. HORCHE",
-      "puntos": "46",
+      "puntos": "1,6429",
       "es_cds": false
     },
     {
       "posicion": "4",
       "equipo": "A.D. HOGAR ALCARREÑO",
-      "puntos": "45",
+      "puntos": "1,6071",
       "es_cds": false
     },
     {
       "posicion": "5",
       "equipo": "A.D. SESEÑA C.F.",
-      "puntos": "44",
+      "puntos": "1,5714",
       "es_cds": false
     },
     {
       "posicion": "6",
       "equipo": "F.C. AÑOVER DE TAJO",
-      "puntos": "42",
+      "puntos": "1,5000",
       "es_cds": false
     },
     {
       "posicion": "7",
       "equipo": "ACADEMIA ALBICELESTE",
-      "puntos": "42",
+      "puntos": "1,5000",
       "es_cds": false
     },
     {
       "posicion": "8",
       "equipo": "C.D. YUNQUERA",
-      "puntos": "38",
+      "puntos": "1,3571",
       "es_cds": false
     },
     {
       "posicion": "9",
       "equipo": "C.D. SAGREÑO",
-      "puntos": "37",
+      "puntos": "1,3214",
       "es_cds": false
     },
     {
       "posicion": "10",
       "equipo": "E.F.B. JESUS DE LA OSSA",
-      "puntos": "36",
+      "puntos": "1,2857",
       "es_cds": false
     },
     {
       "posicion": "11",
       "equipo": "C.D. UGENA E.F.M.",
-      "puntos": "35",
+      "puntos": "1,2500",
       "es_cds": false
     },
     {
       "posicion": "12",
       "equipo": "SP. CABANILLAS \"B\"",
-      "puntos": "35",
+      "puntos": "1,2500",
       "es_cds": false
     },
     {
       "posicion": "13",
       "equipo": "C.D. OPTENSE",
-      "puntos": "31",
+      "puntos": "1,1071",
       "es_cds": false
     },
     {
       "posicion": "14",
       "equipo": "YEPES C.F.",
-      "puntos": "27",
+      "puntos": "0,9643",
       "es_cds": false
     },
     {
       "posicion": "15",
       "equipo": "C.R. FONTANAR",
-      "puntos": "23",
+      "puntos": "0,8214",
       "es_cds": false
     },
     {
       "posicion": "16",
       "equipo": "C.D. EL CASAR",
-      "puntos": "18",
+      "puntos": "0,6429",
       "es_cds": false
     }
   ],
   "posicion_cds": {
     "posicion": "2",
-    "puntos": "58",
-    "partidos_jugados": "14"
+    "puntos": "2,0714",
+    "partidos_jugados": "58"
   },
   "proximo_partido": {
     "jornada": "29",
