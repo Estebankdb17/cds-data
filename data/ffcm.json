@@ -1,113 +1,147 @@
 {
-  "updated": "2026-05-05T11:09:55.025Z",
+  "updated": "2026-05-05T12:45:06.575Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos": "2,3448",
+      "puntos_por_partido": "2,3448",
+      "puntos": "68",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "2",
       "equipo": "C.D. SIGÜENZA",
-      "puntos": "2,0345",
+      "puntos_por_partido": "2,0345",
+      "puntos": "59",
+      "partidos_jugados": "15",
       "es_cds": true
     },
     {
       "posicion": "3",
       "equipo": "A.C.D.M. HORCHE",
-      "puntos": "1,6897",
+      "puntos_por_partido": "1,6897",
+      "puntos": "49",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "4",
       "equipo": "A.D. SESEÑA C.F.",
-      "puntos": "1,6207",
+      "puntos_por_partido": "1,6207",
+      "puntos": "47",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "5",
       "equipo": "F.C. AÑOVER DE TAJO",
-      "puntos": "1,5517",
+      "puntos_por_partido": "1,5517",
+      "puntos": "45",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "6",
       "equipo": "A.D. HOGAR ALCARREÑO",
-      "puntos": "1,5517",
+      "puntos_por_partido": "1,5517",
+      "puntos": "45",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "7",
       "equipo": "ACADEMIA ALBICELESTE",
-      "puntos": "1,4828",
+      "puntos_por_partido": "1,4828",
+      "puntos": "43",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "8",
       "equipo": "C.D. SAGREÑO",
-      "puntos": "1,3793",
+      "puntos_por_partido": "1,3793",
+      "puntos": "40",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "9",
       "equipo": "E.F.B. JESUS DE LA OSSA",
-      "puntos": "1,3448",
+      "puntos_por_partido": "1,3448",
+      "puntos": "39",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "10",
       "equipo": "C.D. YUNQUERA",
-      "puntos": "1,3448",
+      "puntos_por_partido": "1,3448",
+      "puntos": "39",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "11",
       "equipo": "C.D. UGENA E.F.M.",
-      "puntos": "1,3103",
+      "puntos_por_partido": "1,3103",
+      "puntos": "38",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "12",
       "equipo": "SP. CABANILLAS \"B\"",
-      "puntos": "1,2069",
+      "puntos_por_partido": "1,2069",
+      "puntos": "35",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "13",
       "equipo": "C.D. OPTENSE",
-      "puntos": "1,0690",
+      "puntos_por_partido": "1,0690",
+      "puntos": "31",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "14",
       "equipo": "YEPES C.F.",
-      "puntos": "0,9655",
+      "puntos_por_partido": "0,9655",
+      "puntos": "28",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
       "posicion": "15",
       "equipo": "C.R. FONTANAR",
-      "puntos": "0,7931",
+      "puntos_por_partido": "0,7931",
+      "puntos": "23",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "16",
       "equipo": "C.D. EL CASAR",
-      "puntos": "0,6207",
+      "puntos_por_partido": "0,6207",
+      "puntos": "18",
+      "partidos_jugados": "14",
       "es_cds": false
     }
   ],
   "posicion_cds": {
     "posicion": "2",
-    "puntos": "2,0345",
-    "partidos_jugados": "59"
+    "puntos_por_partido": "2,0345",
+    "puntos": "59",
+    "partidos_jugados": "15"
   },
   "proximo_partido": {
     "jornada": "30",
     "local": "C.D. OPTENSE",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "10-05-2026  18:00"
+    "fecha": "10-05-2026  18:00",
+    "hora": null
   },
   "proximos_partidos": [],
   "ultimo_resultado": {
