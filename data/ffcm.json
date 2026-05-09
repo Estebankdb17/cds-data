@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09T15:40:51.569Z",
+  "updated": "2026-05-09T16:40:21.299Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -92,9 +92,9 @@
     {
       "posicion": "12",
       "equipo": "SP. CABANILLAS \"B\"",
-      "puntos_por_partido": "1,2069",
+      "puntos_por_partido": "1,1667",
       "puntos": "35",
-      "partidos_jugados": "14",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
@@ -116,8 +116,8 @@
     {
       "posicion": "15",
       "equipo": "C.R. FONTANAR",
-      "puntos_por_partido": "0,7931",
-      "puntos": "23",
+      "puntos_por_partido": "0,8667",
+      "puntos": "26",
       "partidos_jugados": "15",
       "es_cds": false
     },
