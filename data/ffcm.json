@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10T16:41:09.327Z",
+  "updated": "2026-05-10T17:42:05.101Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -59,18 +59,18 @@
     },
     {
       "posicion": "8",
-      "equipo": "C.D. SAGREÑO",
-      "puntos_por_partido": "1,3793",
-      "puntos": "40",
-      "partidos_jugados": "14",
+      "equipo": "E.F.B. JESUS DE LA OSSA",
+      "puntos_por_partido": "1,4000",
+      "puntos": "42",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
       "posicion": "9",
-      "equipo": "E.F.B. JESUS DE LA OSSA",
-      "puntos_por_partido": "1,3448",
-      "puntos": "39",
-      "partidos_jugados": "15",
+      "equipo": "C.D. SAGREÑO",
+      "puntos_por_partido": "1,3793",
+      "puntos": "40",
+      "partidos_jugados": "14",
       "es_cds": false
     },
     {
@@ -124,9 +124,9 @@
     {
       "posicion": "16",
       "equipo": "C.D. EL CASAR",
-      "puntos_por_partido": "0,6207",
+      "puntos_por_partido": "0,6000",
       "puntos": "18",
-      "partidos_jugados": "14",
+      "partidos_jugados": "15",
       "es_cds": false
     }
   ],
