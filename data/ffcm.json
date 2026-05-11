@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T05:58:36.901Z",
+  "updated": "2026-05-11T09:35:31.435Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -136,27 +136,24 @@
     "puntos": "59",
     "partidos_jugados": "15"
   },
-  "proximo_partido": null,
-  "proximos_partidos": [],
-  "ultimo_resultado": {
+  "proximo_partido": {
     "jornada": "30",
     "local": "C.D. OPTENSE",
     "visitante": "C.D. SIGÜENZA",
     "fecha": "10-05-2026  18:00",
+    "hora": null
+  },
+  "proximos_partidos": [],
+  "ultimo_resultado": {
+    "jornada": "29",
+    "local": "C.D. SIGÜENZA",
+    "visitante": "ACADEMIA ALBICELESTE",
+    "fecha": "03-05-2026  18:00",
     "hora": null,
-    "golesLocal": "2",
-    "golesVisitante": "4"
+    "golesLocal": "0",
+    "golesVisitante": "0"
   },
   "ultimos_resultados": [
-    {
-      "jornada": "29",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "ACADEMIA ALBICELESTE",
-      "fecha": "03-05-2026  18:00",
-      "hora": null,
-      "golesLocal": "0",
-      "golesVisitante": "0"
-    },
     {
       "jornada": "28",
       "local": "C.D. EL CASAR",
@@ -182,6 +179,15 @@
       "fecha": "12-04-2026  17:00",
       "hora": null,
       "golesLocal": "1",
+      "golesVisitante": "1"
+    },
+    {
+      "jornada": "25",
+      "local": "A.D. HOGAR ALCARREÑO",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "22-03-2026  16:00",
+      "hora": null,
+      "golesLocal": "0",
       "golesVisitante": "1"
     }
   ]
