@@ -158,6 +158,7 @@ const suspendidos = filaPartidos.filter(row => {
       partidos_jugados: posicionCds[5],
     } : null,
     proximo_partido: parsearPartido(proximos[0]),
+    partido_suspendido: suspendidos.length > 0 ? parsearPartido(suspendidos[suspendidos.length - 1]) : null,
     proximos_partidos: proximos.slice(1, 5).map(parsearPartido),
     ultimo_resultado: parsearResultado(jugados[jugados.length - 1]),
     ultimos_resultados: jugados.slice(-5, -1).reverse().map(parsearResultado),
