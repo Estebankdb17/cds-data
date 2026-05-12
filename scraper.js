@@ -90,8 +90,30 @@ async function main() {
   });
 
   const filaPartidos = partidos.filter(row => row.length === 3 && /^\d+$/.test(row[0]));
-  const jugados = filaPartidos.filter(row => /\d+\s*-\s*\d+/.test(row[2]));
-  const proximos = filaPartidos.filter(row => row[2] === '-' || row[2].trim() === '');
+const jugados = filaPartidos.filter(row => /\d+\s*-\s*\d+/.test(row[2]));
+
+const hoy = new Date();
+hoy.setHours(0, 0, 0, 0);
+
+const proximos = filaPartidos.filter(row => {
+  if (row[2] !== '-' && row[2].trim() !== '') return false;
+  const partes = row[1].split('\n');
+  const fechaStr = partes[2]?.trim().split('  ')[0];
+  if (!fechaStr) return true;
+  const [dia, mes, anio] = fechaStr.split('-');
+  const fechaPartido = new Date(`${anio}-${mes}-${dia}`);
+  return fechaPartido >= hoy;
+});
+
+const suspendidos = filaPartidos.filter(row => {
+  if (row[2] !== '-' && row[2].trim() !== '') return false;
+  const partes = row[1].split('\n');
+  const fechaStr = partes[2]?.trim().split('  ')[0];
+  if (!fechaStr) return false;
+  const [dia, mes, anio] = fechaStr.split('-');
+  const fechaPartido = new Date(`${anio}-${mes}-${dia}`);
+  return fechaPartido < hoy;
+});
 
   function parsearPartido(row) {
     if (!row) return null;
