@@ -4,27 +4,57 @@ const fs = require('fs');
 const URLS = {
   clasificacion: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=22229516&codcompeticion=22229394&',
   partidos: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?cod_primaria=1000123&codequipo=33055&codgrupo=22229516',
-  playoff: 'https://www.ffcm.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=22909835&CodGrupo=22909850&CodTemporada=21&CodJornada=1',
+  playoffIda: 'https://www.ffcm.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=22909835&CodGrupo=22909850&CodTemporada=21&CodJornada=1',
+  playoffVuelta: 'https://www.ffcm.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=22909835&CodGrupo=22909850&CodTemporada=21&CodJornada=2',
 };
+
+async function scrapearPlayoff(page, url, jornada) {
+  await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+
+  const rows = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll('table tr'))
+      .map(row => Array.from(row.querySelectorAll('td, th')).map(cell => cell.innerText.trim()))
+      .filter(row => row.length > 0);
+  });
+
+  // Fila con 3 columnas: local, fecha/hora, visitante
+  const fila = rows.find(row => row.length === 3 && row[1].includes('-'));
+  if (!fila) return null;
+
+  const fechaHora = fila[1].split('\n');
+  const fecha = fechaHora[0]?.trim() || null;
+  const hora = fechaHora[1]?.trim() || null;
+
+  // Buscar marcador
+  const filaMarcador = rows.find(row => row.length === 1 && /^\d+\s*-\s*\d+$/.test(row[0]));
+  const marcadorMatch = filaMarcador ? filaMarcador[0].match(/(\d+)\s*-\s*(\d+)/) : null;
+
+  // Buscar campo
+  const filaCampo = rows.find(row => row.length === 1 && row[0].length > 5 && !row[0].includes('-202') && !/^\d/.test(row[0]));
+
+  return {
+    jornada,
+    local: fila[0],
+    visitante: fila[2],
+    fecha,
+    hora,
+    campo: filaCampo ? filaCampo[0] : null,
+    jugado: !!marcadorMatch,
+    golesLocal: marcadorMatch ? marcadorMatch[1] : null,
+    golesVisitante: marcadorMatch ? marcadorMatch[2] : null,
+  };
+}
 
 async function main() {
   console.log('Iniciando Puppeteer...');
 
   const browser = await puppeteer.launch({
     headless: true,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu',
-    ],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu'],
   });
 
   const page = await browser.newPage();
-
-  await page.setUserAgent(
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'
-  );
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36');
 
   // ── Clasificación ──
   await page.goto('https://www.ffcm.es', { waitUntil: 'networkidle2', timeout: 30000 });
@@ -63,17 +93,6 @@ async function main() {
   const jugados = filaPartidos.filter(row => /\d+\s*-\s*\d+/.test(row[2]));
   const proximos = filaPartidos.filter(row => row[2] === '-' || row[2].trim() === '');
 
-  // ── Playoff ──
-  await page.goto(URLS.playoff, { waitUntil: 'networkidle2', timeout: 30000 });
-
-  const playoffRaw = await page.evaluate(() => {
-    return Array.from(document.querySelectorAll('table tr'))
-      .map(row => Array.from(row.querySelectorAll('td, th')).map(cell => cell.innerText.trim()))
-      .filter(row => row.length > 0);
-  });
-
-  console.log('Playoff raw:', JSON.stringify(playoffRaw.slice(0, 15), null, 2));
-
   function parsearPartido(row) {
     if (!row) return null;
     const partes = row[1].split('\n');
@@ -103,6 +122,10 @@ async function main() {
     };
   }
 
+  // ── Playoff ──
+  const playoffIda = await scrapearPlayoff(page, URLS.playoffIda, 1);
+  const playoffVuelta = await scrapearPlayoff(page, URLS.playoffVuelta, 2);
+
   const result = {
     updated: new Date().toISOString(),
     clasificacion: clasificacionLimpia,
@@ -116,7 +139,10 @@ async function main() {
     proximos_partidos: proximos.slice(1, 5).map(parsearPartido),
     ultimo_resultado: parsearResultado(jugados[jugados.length - 1]),
     ultimos_resultados: jugados.slice(-5, -1).reverse().map(parsearResultado),
-    playoff: playoffRaw,
+    playoff: {
+      ida: playoffIda,
+      vuelta: playoffVuelta,
+    },
   };
 
   fs.mkdirSync('data', { recursive: true });
