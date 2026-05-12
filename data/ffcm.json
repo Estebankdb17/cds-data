@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T18:31:45.679Z",
+  "updated": "2026-05-12T18:53:16.260Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -136,7 +136,8 @@
     "puntos": "59",
     "partidos_jugados": "15"
   },
-  "proximo_partido": {
+  "proximo_partido": null,
+  "partido_suspendido": {
     "jornada": "30",
     "local": "C.D. OPTENSE",
     "visitante": "C.D. SIGÜENZA",
