@@ -38,7 +38,7 @@ async function scrapearPlayoff(page, url, jornada) {
     visitante: fila[2],
     fecha,
     hora,
-    campo: filaCampo ? filaCampo[0] : null,
+    campo: filaCampo ? filaCampo[0].replace(/\n/g, ' ').trim() : null,
     jugado: !!marcadorMatch,
     golesLocal: marcadorMatch ? marcadorMatch[1] : null,
     golesVisitante: marcadorMatch ? marcadorMatch[2] : null,
