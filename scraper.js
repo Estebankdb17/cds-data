@@ -4,6 +4,7 @@ const fs = require('fs');
 const URLS = {
   clasificacion: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=22229516&codcompeticion=22229394&',
   partidos: 'https://www.ffcm.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?cod_primaria=1000123&codequipo=33055&codgrupo=22229516',
+  playoff: 'https://www.ffcm.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&CodCompeticion=22909835&CodGrupo=22909850&CodTemporada=21&CodJornada=1',
 };
 
 async function main() {
@@ -26,32 +27,17 @@ async function main() {
   );
 
   // ── Clasificación ──
-  await page.goto('https://www.ffcm.es', {
-    waitUntil: 'networkidle2',
-    timeout: 30000,
-  });
-
-  await page.goto(URLS.clasificacion, {
-    waitUntil: 'networkidle2',
-    timeout: 30000,
-  });
+  await page.goto('https://www.ffcm.es', { waitUntil: 'networkidle2', timeout: 30000 });
+  await page.goto(URLS.clasificacion, { waitUntil: 'networkidle2', timeout: 30000 });
 
   const clasificacion = await page.evaluate(() => {
     return Array.from(document.querySelectorAll('table tr'))
-      .map(row =>
-        Array.from(row.querySelectorAll('td, th')).map(cell =>
-          cell.innerText.trim()
-        )
-      )
+      .map(row => Array.from(row.querySelectorAll('td, th')).map(cell => cell.innerText.trim()))
       .filter(row => row.length > 0);
   });
 
   const filas = clasificacion.slice(2).filter(row => row[1] && row[2]);
-
-  const posicionCds = filas.find(
-    row => row[2] && row[2].includes('SIGÜENZA')
-  );
-
+  const posicionCds = filas.find(row => row[2] && row[2].includes('SIGÜENZA'));
   const clasificacionLimpia = filas
     .filter(row => /^\d+$/.test(row[1]))
     .slice(0, 16)
@@ -65,56 +51,47 @@ async function main() {
     }));
 
   // ── Partidos ──
-  await page.goto(URLS.partidos, {
-    waitUntil: 'networkidle2',
-    timeout: 30000,
-  });
+  await page.goto(URLS.partidos, { waitUntil: 'networkidle2', timeout: 30000 });
 
   const partidos = await page.evaluate(() => {
     return Array.from(document.querySelectorAll('table tr'))
-      .map(row =>
-        Array.from(row.querySelectorAll('td, th')).map(cell =>
-          cell.innerText.trim()
-        )
-      )
+      .map(row => Array.from(row.querySelectorAll('td, th')).map(cell => cell.innerText.trim()))
       .filter(row => row.length > 0);
   });
 
-  const filaPartidos = partidos.filter(
-    row => row.length === 3 && /^\d+$/.test(row[0])
-  );
-
+  const filaPartidos = partidos.filter(row => row.length === 3 && /^\d+$/.test(row[0]));
   const jugados = filaPartidos.filter(row => /\d+\s*-\s*\d+/.test(row[2]));
+  const proximos = filaPartidos.filter(row => row[2] === '-' || row[2].trim() === '');
 
-  const proximos = filaPartidos.filter(
-    row => row[2] === '-' || row[2].trim() === ''
-  );
+  // ── Playoff ──
+  await page.goto(URLS.playoff, { waitUntil: 'networkidle2', timeout: 30000 });
+
+  const playoffRaw = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll('table tr'))
+      .map(row => Array.from(row.querySelectorAll('td, th')).map(cell => cell.innerText.trim()))
+      .filter(row => row.length > 0);
+  });
+
+  console.log('Playoff raw:', JSON.stringify(playoffRaw.slice(0, 15), null, 2));
 
   function parsearPartido(row) {
     if (!row) return null;
-
     const partes = row[1].split('\n');
     const fechaHora = partes[2]?.trim() || '';
-
-    const fecha = fechaHora.split('  ')[0]?.trim() || null;
-    const hora = fechaHora.split('  ')[1]?.trim() || null;
-
     return {
       jornada: row[0],
       local: partes[0]?.trim() || '',
       visitante: partes[1]?.trim() || '',
-      fecha,
-      hora,
+      fecha: fechaHora.split('  ')[0]?.trim() || null,
+      hora: fechaHora.split('  ')[1]?.trim() || null,
     };
   }
 
   function parsearResultado(row) {
     if (!row) return null;
-
     const partes = row[1].split('\n');
     const fechaHora = partes[2]?.trim() || '';
     const marcadorMatch = row[2].match(/(\d+)\s*-\s*(\d+)/);
-
     return {
       jornada: row[0],
       local: partes[0]?.trim() || '',
@@ -128,23 +105,18 @@ async function main() {
 
   const result = {
     updated: new Date().toISOString(),
-
     clasificacion: clasificacionLimpia,
-
-    posicion_cds: posicionCds
-      ? {
-          posicion: posicionCds[1],
-          puntos_por_partido: posicionCds[3],
-          puntos: posicionCds[4],
-          partidos_jugados: posicionCds[5],
-        }
-      : null,
-
+    posicion_cds: posicionCds ? {
+      posicion: posicionCds[1],
+      puntos_por_partido: posicionCds[3],
+      puntos: posicionCds[4],
+      partidos_jugados: posicionCds[5],
+    } : null,
     proximo_partido: parsearPartido(proximos[0]),
     proximos_partidos: proximos.slice(1, 5).map(parsearPartido),
-
     ultimo_resultado: parsearResultado(jugados[jugados.length - 1]),
     ultimos_resultados: jugados.slice(-5, -1).reverse().map(parsearResultado),
+    playoff: playoffRaw,
   };
 
   fs.mkdirSync('data', { recursive: true });
