@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T18:04:07.978Z",
+  "updated": "2026-05-12T18:10:35.538Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -191,21 +191,28 @@
       "golesVisitante": "1"
     }
   ],
-  "playoff": [
-    [
-      "C.D. POLAN\n\t\n\n  \n16-05-2026\n18:00\t\nC.D. SIGÜENZA\n\n\n\nEl Castillo - Polán\n- CESPED ARTIFICIAL",
-      "C.D. POLAN",
-      "16-05-2026\n18:00",
-      "C.D. SIGÜENZA",
-      "El Castillo - Polán\n- CESPED ARTIFICIAL"
-    ],
-    [
-      "C.D. POLAN",
-      "16-05-2026\n18:00",
-      "C.D. SIGÜENZA"
-    ],
-    [
-      "El Castillo - Polán\n- CESPED ARTIFICIAL"
-    ]
-  ]
+  "playoff": {
+    "ida": {
+      "jornada": 1,
+      "local": "C.D. POLAN",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "16-05-2026",
+      "hora": "18:00",
+      "campo": "El Castillo - Polán\n- CESPED ARTIFICIAL",
+      "jugado": false,
+      "golesLocal": null,
+      "golesVisitante": null
+    },
+    "vuelta": {
+      "jornada": 2,
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. POLAN",
+      "fecha": "24-05-2026",
+      "hora": null,
+      "campo": "La Salceda - Siguenza\n- CESPED ARTIFICIAL",
+      "jugado": false,
+      "golesLocal": null,
+      "golesVisitante": null
+    }
+  }
 }
