@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T18:10:35.538Z",
+  "updated": "2026-05-12T18:29:56.900Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -198,7 +198,7 @@
       "visitante": "C.D. SIGÜENZA",
       "fecha": "16-05-2026",
       "hora": "18:00",
-      "campo": "El Castillo - Polán\n- CESPED ARTIFICIAL",
+      "campo": "El Castillo - Polán - CESPED ARTIFICIAL",
       "jugado": false,
       "golesLocal": null,
       "golesVisitante": null
@@ -209,7 +209,7 @@
       "visitante": "C.D. POLAN",
       "fecha": "24-05-2026",
       "hora": null,
-      "campo": "La Salceda - Siguenza\n- CESPED ARTIFICIAL",
+      "campo": "La Salceda - Siguenza - CESPED ARTIFICIAL",
       "jugado": false,
       "golesLocal": null,
       "golesVisitante": null
