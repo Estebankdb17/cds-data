@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T06:16:45.480Z",
+  "updated": "2026-05-13T09:34:54.764Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -12,8 +12,8 @@
     {
       "posicion": "2",
       "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "2,0345",
-      "puntos": "59",
+      "puntos_por_partido": "2,0667",
+      "puntos": "62",
       "partidos_jugados": "15",
       "es_cds": true
     },
@@ -100,9 +100,9 @@
     {
       "posicion": "13",
       "equipo": "C.D. OPTENSE",
-      "puntos_por_partido": "1,0690",
+      "puntos_por_partido": "1,0333",
       "puntos": "31",
-      "partidos_jugados": "14",
+      "partidos_jugados": "15",
       "es_cds": false
     },
     {
@@ -132,29 +132,32 @@
   ],
   "posicion_cds": {
     "posicion": "2",
-    "puntos_por_partido": "2,0345",
-    "puntos": "59",
+    "puntos_por_partido": "2,0667",
+    "puntos": "62",
     "partidos_jugados": "15"
   },
   "proximo_partido": null,
-  "partido_suspendido": {
+  "partido_suspendido": null,
+  "proximos_partidos": [],
+  "ultimo_resultado": {
     "jornada": "30",
     "local": "C.D. OPTENSE",
     "visitante": "C.D. SIGÜENZA",
     "fecha": "10-05-2026  18:00",
-    "hora": null
-  },
-  "proximos_partidos": [],
-  "ultimo_resultado": {
-    "jornada": "29",
-    "local": "C.D. SIGÜENZA",
-    "visitante": "ACADEMIA ALBICELESTE",
-    "fecha": "03-05-2026  18:00",
     "hora": null,
-    "golesLocal": "0",
-    "golesVisitante": "0"
+    "golesLocal": "3",
+    "golesVisitante": "4"
   },
   "ultimos_resultados": [
+    {
+      "jornada": "29",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "ACADEMIA ALBICELESTE",
+      "fecha": "03-05-2026  18:00",
+      "hora": null,
+      "golesLocal": "0",
+      "golesVisitante": "0"
+    },
     {
       "jornada": "28",
       "local": "C.D. EL CASAR",
@@ -180,15 +183,6 @@
       "fecha": "12-04-2026  17:00",
       "hora": null,
       "golesLocal": "1",
-      "golesVisitante": "1"
-    },
-    {
-      "jornada": "25",
-      "local": "A.D. HOGAR ALCARREÑO",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "22-03-2026  16:00",
-      "hora": null,
-      "golesLocal": "0",
       "golesVisitante": "1"
     }
   ],
