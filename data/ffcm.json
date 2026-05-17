@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T23:40:39.454Z",
+  "updated": "2026-05-17T01:57:34.661Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -191,7 +191,7 @@
       "jornada": 1,
       "local": "C.D. POLAN",
       "visitante": "C.D. SIGÜENZA",
-      "fecha": "-",
+      "fecha": "0 -",
       "hora": null,
       "campo": "El Castillo - Polán - CESPED ARTIFICIAL     Árbitro:  NUÑEZ ORMEÑO, JAVIER",
       "jugado": false,
