@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T11:06:36.851Z",
+  "updated": "2026-05-24T12:57:45.244Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -202,9 +202,9 @@
       "jornada": 2,
       "local": "(Clasificado)      C.D. SIGÜENZA",
       "visitante": "C.D. POLAN",
-      "fecha": "1 -",
+      "fecha": "-",
       "hora": null,
-      "campo": "La Salceda - Siguenza - CESPED ARTIFICIAL     Árbitro:  JIMENEZ DE LA COCA SANCHEZ MATEOS, CARLOS",
+      "campo": "Cargando",
       "jugado": false,
       "golesLocal": null,
       "golesVisitante": null
