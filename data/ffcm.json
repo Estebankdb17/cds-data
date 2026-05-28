@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T14:27:46.682Z",
+  "updated": "2026-05-28T17:55:45.868Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -191,7 +191,7 @@
       "jornada": 1,
       "local": "C.D. POLAN",
       "visitante": "C.D. SIGÜENZA",
-      "fecha": "0 -",
+      "fecha": "-",
       "hora": null,
       "campo": "El Castillo - Polán - CESPED ARTIFICIAL     Árbitro:  NUÑEZ ORMEÑO, JAVIER",
       "jugado": false,
@@ -204,7 +204,7 @@
       "visitante": "C.D. POLAN",
       "fecha": "-",
       "hora": null,
-      "campo": "La Salceda - Siguenza - CESPED ARTIFICIAL     Árbitro:  JIMENEZ DE LA COCA SANCHEZ MATEOS, CARLOS",
+      "campo": "Cargando",
       "jugado": false,
       "golesLocal": null,
       "golesVisitante": null
