@@ -5,6 +5,13 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-ffcm
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -17,20 +24,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
 
       - name: Instalar dependencias
-        run: npm install
-
-      - name: Instalar Chrome para Puppeteer
-        run: |
-          cd node_modules/puppeteer
-          node install.mjs
+        run: npm ci
 
       - name: Ejecutar scraper
-        run: |
-          node scraper.js
-          echo "=== JSON generado ==="
-          cat data/ffcm.json
+        run: node scraper.js
 
       - name: Commit y push del JSON
         run: |
@@ -38,4 +38,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ffcm.json
           git diff --staged --quiet || git commit -m "chore: update ffcm data"
-          git push --force
+          git push
