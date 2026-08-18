@@ -1,213 +1,198 @@
 {
-  "updated": "2026-08-18T18:20:14.285Z",
+  "temporada": "2026/27",
+  "competicion": "Primera Autonómica Preferente",
+  "grupo": 2,
+  "updated": "2026-08-18T18:49:17.327Z",
   "clasificacion": [
     {
       "posicion": "1",
-      "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos_por_partido": "2,2667",
-      "puntos": "68",
-      "partidos_jugados": "15",
+      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "2",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "2,0667",
-      "puntos": "62",
-      "partidos_jugados": "15",
-      "es_cds": true
+      "equipo": "A.D. TORPEDO 66",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": false
     },
     {
       "posicion": "3",
-      "equipo": "A.C.D.M. HORCHE",
-      "puntos_por_partido": "1,7333",
-      "puntos": "52",
-      "partidos_jugados": "15",
+      "equipo": "C.D. AZUQUECA SAD",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "4",
-      "equipo": "A.D. SESEÑA C.F.",
-      "puntos_por_partido": "1,6667",
-      "puntos": "50",
-      "partidos_jugados": "15",
+      "equipo": "C.D. BARGAS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "5",
-      "equipo": "F.C. AÑOVER DE TAJO",
-      "puntos_por_partido": "1,5333",
-      "puntos": "46",
-      "partidos_jugados": "15",
+      "equipo": "C.D. ESQUIVIAS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "6",
-      "equipo": "A.D. HOGAR ALCARREÑO",
-      "puntos_por_partido": "1,5000",
-      "puntos": "45",
-      "partidos_jugados": "15",
+      "equipo": "C.D. MADRIDEJOS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "7",
-      "equipo": "ACADEMIA ALBICELESTE",
-      "puntos_por_partido": "1,4667",
-      "puntos": "44",
-      "partidos_jugados": "15",
+      "equipo": "C.D. PANTOJA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "8",
-      "equipo": "C.D. SAGREÑO",
-      "puntos_por_partido": "1,4333",
-      "puntos": "43",
-      "partidos_jugados": "15",
+      "equipo": "C.D. QUINTANAR",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "9",
-      "equipo": "E.F.B. JESUS DE LA OSSA",
-      "puntos_por_partido": "1,4000",
-      "puntos": "42",
-      "partidos_jugados": "15",
-      "es_cds": false
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": true
     },
     {
       "posicion": "10",
-      "equipo": "C.D. YUNQUERA",
-      "puntos_por_partido": "1,3000",
-      "puntos": "39",
-      "partidos_jugados": "15",
+      "equipo": "C.D. SONSECA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "11",
-      "equipo": "C.D. UGENA E.F.M.",
-      "puntos_por_partido": "1,2667",
-      "puntos": "38",
-      "partidos_jugados": "15",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "12",
-      "equipo": "SP. CABANILLAS \"B\"",
-      "puntos_por_partido": "1,1667",
-      "puntos": "35",
-      "partidos_jugados": "15",
+      "equipo": "C.D. YUNCOS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "13",
-      "equipo": "C.D. OPTENSE",
-      "puntos_por_partido": "1,0333",
-      "puntos": "31",
-      "partidos_jugados": "15",
+      "equipo": "C.F. ALOVERA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "14",
-      "equipo": "YEPES C.F.",
-      "puntos_por_partido": "1,0333",
-      "puntos": "31",
-      "partidos_jugados": "15",
+      "equipo": "MAGÁN C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "15",
-      "equipo": "C.R. FONTANAR",
-      "puntos_por_partido": "0,8667",
-      "puntos": "26",
-      "partidos_jugados": "15",
+      "equipo": "MORA C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     },
     {
       "posicion": "16",
-      "equipo": "C.D. EL CASAR",
-      "puntos_por_partido": "0,6000",
-      "puntos": "18",
-      "partidos_jugados": "15",
+      "equipo": "ORGACEÑO C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "17",
+      "equipo": "SANTA CRUZ UJAF C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "18",
+      "equipo": "SP. CABANILLAS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
       "es_cds": false
     }
   ],
   "posicion_cds": {
-    "posicion": "2",
-    "puntos_por_partido": "2,0667",
-    "puntos": "62",
-    "partidos_jugados": "15"
+    "posicion": "9",
+    "puntos_por_partido": "0,0000",
+    "puntos": "0",
+    "partidos_jugados": "0"
   },
-  "proximo_partido": null,
-  "partido_suspendido": null,
-  "proximos_partidos": [],
-  "ultimo_resultado": {
-    "jornada": "30",
-    "local": "C.D. OPTENSE",
+  "proximo_partido": {
+    "jornada": "1",
+    "local": "C.F. ALOVERA",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "10-05-2026  18:00",
-    "hora": null,
-    "golesLocal": "3",
-    "golesVisitante": "4"
+    "fecha": "06-09-2026",
+    "hora": null
   },
-  "ultimos_resultados": [
+  "partido_suspendido": null,
+  "proximos_partidos": [
     {
-      "jornada": "29",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "ACADEMIA ALBICELESTE",
-      "fecha": "03-05-2026  18:00",
-      "hora": null,
-      "golesLocal": "0",
-      "golesVisitante": "0"
-    },
-    {
-      "jornada": "28",
-      "local": "C.D. EL CASAR",
+      "jornada": "2",
+      "local": "C.D. AZUQUECA SAD",
       "visitante": "C.D. SIGÜENZA",
-      "fecha": "26-04-2026  18:00",
-      "hora": null,
-      "golesLocal": "0",
-      "golesVisitante": "3"
+      "fecha": "13-09-2026",
+      "hora": null
     },
     {
-      "jornada": "27",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "E.F.B. JESUS DE LA OSSA",
-      "fecha": "18-04-2026  18:00",
-      "hora": null,
-      "golesLocal": "3",
-      "golesVisitante": "0"
-    },
-    {
-      "jornada": "26",
-      "local": "F.C. AÑOVER DE TAJO",
+      "jornada": "3",
+      "local": "ORGACEÑO C.F.",
       "visitante": "C.D. SIGÜENZA",
-      "fecha": "12-04-2026  17:00",
-      "hora": null,
-      "golesLocal": "1",
-      "golesVisitante": "1"
+      "fecha": "20-09-2026",
+      "hora": null
+    },
+    {
+      "jornada": "4",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. SONSECA",
+      "fecha": "27-09-2026",
+      "hora": null
+    },
+    {
+      "jornada": "5",
+      "local": "SP. CABANILLAS",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "04-10-2026",
+      "hora": null
     }
   ],
-  "playoff": {
-    "ida": {
-      "jornada": 1,
-      "local": "C.D. POLAN",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "-",
-      "hora": null,
-      "campo": "El Castillo - Polán Césped Artificial      Árbitro:  NUÑEZ ORMEÑO, JAVIER",
-      "jugado": false,
-      "golesLocal": null,
-      "golesVisitante": null
-    },
-    "vuelta": {
-      "jornada": 2,
-      "local": "(Clasificado)      C.D. SIGÜENZA",
-      "visitante": "C.D. POLAN",
-      "fecha": "- 1",
-      "hora": null,
-      "campo": "La Salceda - Siguenza Césped Artificial      Árbitro:  JIMENEZ DE LA COCA SANCHEZ MATEOS, CARLOS",
-      "jugado": false,
-      "golesLocal": null,
-      "golesVisitante": null
-    }
-  }
+  "ultimo_resultado": null,
+  "ultimos_resultados": []
 }
