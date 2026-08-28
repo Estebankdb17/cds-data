@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-08-28T07:29:09.989Z",
+  "updated": "2026-08-28T19:44:12.709Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.F. ALOVERA",
     "visitante": "C.D. SIGÜENZA",
     "fecha": "06-09-2026",
-    "hora": null
+    "hora": "18:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
