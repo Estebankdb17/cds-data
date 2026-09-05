@@ -2,10 +2,18 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-05T16:22:00.511Z",
+  "updated": "2026-09-05T18:44:10.393Z",
   "clasificacion": [
     {
       "posicion": "1",
+      "equipo": "C.D. SONSECA",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "2",
       "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -13,7 +21,7 @@
       "es_cds": false
     },
     {
-      "posicion": "2",
+      "posicion": "3",
       "equipo": "A.D. TORPEDO 66",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -21,7 +29,7 @@
       "es_cds": false
     },
     {
-      "posicion": "3",
+      "posicion": "4",
       "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -29,7 +37,7 @@
       "es_cds": false
     },
     {
-      "posicion": "4",
+      "posicion": "5",
       "equipo": "C.D. BARGAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -37,7 +45,7 @@
       "es_cds": false
     },
     {
-      "posicion": "5",
+      "posicion": "6",
       "equipo": "C.D. ESQUIVIAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -45,7 +53,7 @@
       "es_cds": false
     },
     {
-      "posicion": "6",
+      "posicion": "7",
       "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -53,7 +61,7 @@
       "es_cds": false
     },
     {
-      "posicion": "7",
+      "posicion": "8",
       "equipo": "C.D. PANTOJA",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -61,7 +69,7 @@
       "es_cds": false
     },
     {
-      "posicion": "8",
+      "posicion": "9",
       "equipo": "C.D. QUINTANAR",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -69,20 +77,12 @@
       "es_cds": false
     },
     {
-      "posicion": "9",
+      "posicion": "10",
       "equipo": "C.D. SIGÜENZA",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
       "partidos_jugados": "0",
       "es_cds": true
-    },
-    {
-      "posicion": "10",
-      "equipo": "C.D. SONSECA",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
     },
     {
       "posicion": "11",
@@ -150,7 +150,7 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "9",
+    "posicion": "10",
     "puntos_por_partido": "0,0000",
     "puntos": "0",
     "partidos_jugados": "0"
