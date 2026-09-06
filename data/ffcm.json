@@ -2,11 +2,11 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-06T16:32:53.369Z",
+  "updated": "2026-09-06T18:43:28.060Z",
   "clasificacion": [
     {
       "posicion": "1",
-      "equipo": "C.D. AZUQUECA SAD",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "1",
@@ -14,7 +14,7 @@
     },
     {
       "posicion": "2",
-      "equipo": "C.D. SONSECA",
+      "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "1",
@@ -22,7 +22,7 @@
     },
     {
       "posicion": "3",
-      "equipo": "A.D. TORPEDO 66",
+      "equipo": "C.D. SONSECA",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "1",
@@ -30,14 +30,30 @@
     },
     {
       "posicion": "4",
-      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
+      "equipo": "A.D. TORPEDO 66",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "1",
       "es_cds": false
     },
     {
       "posicion": "5",
+      "equipo": "C.D. YUNCOS",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "6",
+      "equipo": "MAGÁN C.F.",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "7",
       "equipo": "C.D. BARGAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -45,15 +61,7 @@
       "es_cds": false
     },
     {
-      "posicion": "6",
-      "equipo": "C.D. MADRIDEJOS",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "7",
+      "posicion": "8",
       "equipo": "C.D. PANTOJA",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -61,7 +69,7 @@
       "es_cds": false
     },
     {
-      "posicion": "8",
+      "posicion": "9",
       "equipo": "C.D. QUINTANAR",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -69,7 +77,7 @@
       "es_cds": false
     },
     {
-      "posicion": "9",
+      "posicion": "10",
       "equipo": "C.D. SIGÜENZA",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -77,23 +85,7 @@
       "es_cds": true
     },
     {
-      "posicion": "10",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
       "posicion": "11",
-      "equipo": "C.D. YUNCOS",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "12",
       "equipo": "C.F. ALOVERA",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -101,23 +93,7 @@
       "es_cds": false
     },
     {
-      "posicion": "13",
-      "equipo": "MAGÁN C.F.",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "14",
-      "equipo": "MORA C.F.",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "15",
+      "posicion": "12",
       "equipo": "ORGACEÑO C.F.",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -125,7 +101,7 @@
       "es_cds": false
     },
     {
-      "posicion": "16",
+      "posicion": "13",
       "equipo": "SP. CABANILLAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -133,7 +109,7 @@
       "es_cds": false
     },
     {
-      "posicion": "17",
+      "posicion": "14",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -141,8 +117,32 @@
       "es_cds": false
     },
     {
-      "posicion": "18",
+      "posicion": "15",
+      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "16",
+      "equipo": "MORA C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "17",
       "equipo": "C.D. ESQUIVIAS",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "18",
+      "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
       "partidos_jugados": "0",
@@ -150,7 +150,7 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "9",
+    "posicion": "10",
     "puntos_por_partido": "0,0000",
     "puntos": "0",
     "partidos_jugados": "0"
