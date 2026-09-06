@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-06T18:43:28.060Z",
+  "updated": "2026-09-06T20:55:41.653Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -22,7 +22,7 @@
     },
     {
       "posicion": "3",
-      "equipo": "C.D. SONSECA",
+      "equipo": "ORGACEÑO C.F.",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "1",
@@ -30,6 +30,22 @@
     },
     {
       "posicion": "4",
+      "equipo": "C.D. QUINTANAR",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "5",
+      "equipo": "C.D. SONSECA",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "6",
       "equipo": "A.D. TORPEDO 66",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
@@ -37,7 +53,15 @@
       "es_cds": false
     },
     {
-      "posicion": "5",
+      "posicion": "7",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "3,0000",
+      "puntos": "3",
+      "partidos_jugados": "0",
+      "es_cds": true
+    },
+    {
+      "posicion": "8",
       "equipo": "C.D. YUNCOS",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
@@ -45,7 +69,7 @@
       "es_cds": false
     },
     {
-      "posicion": "6",
+      "posicion": "9",
       "equipo": "MAGÁN C.F.",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
@@ -53,55 +77,7 @@
       "es_cds": false
     },
     {
-      "posicion": "7",
-      "equipo": "C.D. BARGAS",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "8",
-      "equipo": "C.D. PANTOJA",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "9",
-      "equipo": "C.D. QUINTANAR",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
       "posicion": "10",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": true
-    },
-    {
-      "posicion": "11",
-      "equipo": "C.F. ALOVERA",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "12",
-      "equipo": "ORGACEÑO C.F.",
-      "puntos_por_partido": "0,0000",
-      "puntos": "0",
-      "partidos_jugados": "0",
-      "es_cds": false
-    },
-    {
-      "posicion": "13",
       "equipo": "SP. CABANILLAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -109,7 +85,15 @@
       "es_cds": false
     },
     {
-      "posicion": "14",
+      "posicion": "11",
+      "equipo": "C.F. ALOVERA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "12",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -117,7 +101,7 @@
       "es_cds": false
     },
     {
-      "posicion": "15",
+      "posicion": "13",
       "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
@@ -125,8 +109,24 @@
       "es_cds": false
     },
     {
-      "posicion": "16",
+      "posicion": "14",
       "equipo": "MORA C.F.",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "15",
+      "equipo": "C.D. PANTOJA",
+      "puntos_por_partido": "0,0000",
+      "puntos": "0",
+      "partidos_jugados": "0",
+      "es_cds": false
+    },
+    {
+      "posicion": "16",
+      "equipo": "C.D. BARGAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
       "partidos_jugados": "1",
@@ -150,27 +150,20 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "10",
-    "puntos_por_partido": "0,0000",
-    "puntos": "0",
+    "posicion": "7",
+    "puntos_por_partido": "3,0000",
+    "puntos": "3",
     "partidos_jugados": "0"
   },
   "proximo_partido": {
-    "jornada": "1",
-    "local": "C.F. ALOVERA",
+    "jornada": "2",
+    "local": "C.D. AZUQUECA SAD",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "06-09-2026",
-    "hora": "18:00"
+    "fecha": "12-09-2026",
+    "hora": "19:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
-    {
-      "jornada": "2",
-      "local": "C.D. AZUQUECA SAD",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "12-09-2026",
-      "hora": "19:00"
-    },
     {
       "jornada": "3",
       "local": "ORGACEÑO C.F.",
@@ -191,8 +184,23 @@
       "visitante": "C.D. SIGÜENZA",
       "fecha": "04-10-2026",
       "hora": null
+    },
+    {
+      "jornada": "6",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. PANTOJA",
+      "fecha": "11-10-2026",
+      "hora": null
     }
   ],
-  "ultimo_resultado": null,
+  "ultimo_resultado": {
+    "jornada": "1",
+    "local": "C.F. ALOVERA",
+    "visitante": "C.D. SIGÜENZA",
+    "fecha": "06-09-2026",
+    "hora": "18:00",
+    "golesLocal": "1",
+    "golesVisitante": "2"
+  },
   "ultimos_resultados": []
 }
