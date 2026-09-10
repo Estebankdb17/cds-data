@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-10T06:47:29.428Z",
+  "updated": "2026-09-10T11:56:27.886Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.D. AZUQUECA SAD",
     "visitante": "C.D. SIGÜENZA",
     "fecha": "12-09-2026",
-    "hora": "19:00"
+    "hora": "18:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
