@@ -2,19 +2,19 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-12T17:30:49.933Z",
+  "updated": "2026-09-12T19:48:55.675Z",
   "clasificacion": [
     {
       "posicion": "1",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "3,0000",
-      "puntos": "3",
-      "partidos_jugados": "1",
+      "puntos": "6",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "2",
-      "equipo": "C.D. AZUQUECA SAD",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "1",
@@ -54,14 +54,6 @@
     },
     {
       "posicion": "7",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "3,0000",
-      "puntos": "3",
-      "partidos_jugados": "0",
-      "es_cds": true
-    },
-    {
-      "posicion": "8",
       "equipo": "C.D. YUNCOS",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
@@ -69,12 +61,20 @@
       "es_cds": false
     },
     {
-      "posicion": "9",
+      "posicion": "8",
       "equipo": "MAGÁN C.F.",
       "puntos_por_partido": "3,0000",
       "puntos": "3",
       "partidos_jugados": "0",
       "es_cds": false
+    },
+    {
+      "posicion": "9",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "1,5000",
+      "puntos": "3",
+      "partidos_jugados": "0",
+      "es_cds": true
     },
     {
       "posicion": "10",
@@ -150,27 +150,20 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "7",
-    "puntos_por_partido": "3,0000",
+    "posicion": "9",
+    "puntos_por_partido": "1,5000",
     "puntos": "3",
     "partidos_jugados": "0"
   },
   "proximo_partido": {
-    "jornada": "2",
-    "local": "C.D. AZUQUECA SAD",
+    "jornada": "3",
+    "local": "ORGACEÑO C.F.",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "12-09-2026",
-    "hora": "18:00"
+    "fecha": "20-09-2026",
+    "hora": null
   },
   "partido_suspendido": null,
   "proximos_partidos": [
-    {
-      "jornada": "3",
-      "local": "ORGACEÑO C.F.",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "20-09-2026",
-      "hora": null
-    },
     {
       "jornada": "4",
       "local": "C.D. SIGÜENZA",
@@ -191,16 +184,33 @@
       "visitante": "C.D. PANTOJA",
       "fecha": "11-10-2026",
       "hora": null
+    },
+    {
+      "jornada": "7",
+      "local": "C.D. ESQUIVIAS",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "18-10-2026",
+      "hora": null
     }
   ],
   "ultimo_resultado": {
-    "jornada": "1",
-    "local": "C.F. ALOVERA",
+    "jornada": "2",
+    "local": "C.D. AZUQUECA SAD",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "06-09-2026",
+    "fecha": "12-09-2026",
     "hora": "18:00",
-    "golesLocal": "1",
-    "golesVisitante": "2"
+    "golesLocal": "3",
+    "golesVisitante": "0"
   },
-  "ultimos_resultados": []
+  "ultimos_resultados": [
+    {
+      "jornada": "1",
+      "local": "C.F. ALOVERA",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "06-09-2026",
+      "hora": "18:00",
+      "golesLocal": "1",
+      "golesVisitante": "2"
+    }
+  ]
 }
