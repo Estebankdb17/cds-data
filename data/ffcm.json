@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-12T19:48:55.675Z",
+  "updated": "2026-09-12T21:47:31.088Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -24,7 +24,7 @@
       "posicion": "3",
       "equipo": "ORGACEÑO C.F.",
       "puntos_por_partido": "3,0000",
-      "puntos": "3",
+      "puntos": "6",
       "partidos_jugados": "1",
       "es_cds": false
     },
@@ -137,7 +137,7 @@
       "equipo": "C.D. ESQUIVIAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
-      "partidos_jugados": "0",
+      "partidos_jugados": "1",
       "es_cds": false
     },
     {
