@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-26T15:17:56.576Z",
+  "updated": "2026-09-26T21:41:31.622Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -30,18 +30,18 @@
     },
     {
       "posicion": "4",
-      "equipo": "A.D. TORPEDO 66",
-      "puntos_por_partido": "2,0000",
-      "puntos": "6",
-      "partidos_jugados": "1",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "2,2500",
+      "puntos": "9",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "5",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "equipo": "A.D. TORPEDO 66",
       "puntos_por_partido": "2,0000",
       "puntos": "6",
-      "partidos_jugados": "2",
+      "partidos_jugados": "1",
       "es_cds": false
     },
     {
@@ -94,6 +94,14 @@
     },
     {
       "posicion": "12",
+      "equipo": "SP. CABANILLAS",
+      "puntos_por_partido": "1,0000",
+      "puntos": "4",
+      "partidos_jugados": "2",
+      "es_cds": false
+    },
+    {
+      "posicion": "13",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "1,0000",
       "puntos": "3",
@@ -101,20 +109,12 @@
       "es_cds": false
     },
     {
-      "posicion": "13",
+      "posicion": "14",
       "equipo": "C.D. SIGÜENZA",
       "puntos_por_partido": "1,0000",
       "puntos": "3",
       "partidos_jugados": "0",
       "es_cds": true
-    },
-    {
-      "posicion": "14",
-      "equipo": "SP. CABANILLAS",
-      "puntos_por_partido": "0,3333",
-      "puntos": "1",
-      "partidos_jugados": "2",
-      "es_cds": false
     },
     {
       "posicion": "15",
@@ -135,9 +135,9 @@
     {
       "posicion": "17",
       "equipo": "C.D. PANTOJA",
-      "puntos_por_partido": "0,3333",
+      "puntos_por_partido": "0,2500",
       "puntos": "1",
-      "partidos_jugados": "1",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
@@ -145,12 +145,12 @@
       "equipo": "C.D. ESQUIVIAS",
       "puntos_por_partido": "0,0000",
       "puntos": "0",
-      "partidos_jugados": "1",
+      "partidos_jugados": "2",
       "es_cds": false
     }
   ],
   "posicion_cds": {
-    "posicion": "13",
+    "posicion": "14",
     "puntos_por_partido": "1,0000",
     "puntos": "3",
     "partidos_jugados": "0"
