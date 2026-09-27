@@ -2,35 +2,35 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-27T15:26:11.641Z",
+  "updated": "2026-09-27T19:23:27.848Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "3,0000",
-      "puntos": "9",
+      "puntos": "12",
       "partidos_jugados": "3",
       "es_cds": false
     },
     {
       "posicion": "2",
-      "equipo": "ORGACEÑO C.F.",
-      "puntos_por_partido": "3,0000",
+      "equipo": "A.D. TORPEDO 66",
+      "puntos_por_partido": "2,2500",
       "puntos": "9",
-      "partidos_jugados": "2",
+      "partidos_jugados": "1",
       "es_cds": false
     },
     {
       "posicion": "3",
-      "equipo": "C.D. SONSECA",
-      "puntos_por_partido": "3,0000",
+      "equipo": "ORGACEÑO C.F.",
+      "puntos_por_partido": "2,2500",
       "puntos": "9",
       "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "4",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "equipo": "C.D. SONSECA",
       "puntos_por_partido": "2,2500",
       "puntos": "9",
       "partidos_jugados": "2",
@@ -38,58 +38,58 @@
     },
     {
       "posicion": "5",
-      "equipo": "A.D. TORPEDO 66",
-      "puntos_por_partido": "2,0000",
-      "puntos": "6",
-      "partidos_jugados": "1",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "2,2500",
+      "puntos": "9",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "6",
       "equipo": "MORA C.F.",
-      "puntos_por_partido": "2,0000",
-      "puntos": "6",
+      "puntos_por_partido": "2,2500",
+      "puntos": "9",
       "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "7",
-      "equipo": "MAGÁN C.F.",
-      "puntos_por_partido": "2,0000",
-      "puntos": "6",
-      "partidos_jugados": "1",
+      "equipo": "C.D. QUINTANAR",
+      "puntos_por_partido": "1,7500",
+      "puntos": "7",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "8",
-      "equipo": "C.D. QUINTANAR",
-      "puntos_por_partido": "1,3333",
-      "puntos": "4",
-      "partidos_jugados": "1",
+      "equipo": "C.D. YUNCOS",
+      "puntos_por_partido": "1,7500",
+      "puntos": "7",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "9",
-      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
-      "puntos_por_partido": "1,3333",
-      "puntos": "4",
+      "equipo": "C.D. MADRIDEJOS",
+      "puntos_por_partido": "1,7500",
+      "puntos": "7",
       "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "10",
-      "equipo": "C.D. YUNCOS",
-      "puntos_por_partido": "1,3333",
-      "puntos": "4",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "1,5000",
+      "puntos": "6",
       "partidos_jugados": "1",
-      "es_cds": false
+      "es_cds": true
     },
     {
       "posicion": "11",
-      "equipo": "C.D. MADRIDEJOS",
-      "puntos_por_partido": "1,3333",
-      "puntos": "4",
-      "partidos_jugados": "1",
+      "equipo": "MAGÁN C.F.",
+      "puntos_por_partido": "1,5000",
+      "puntos": "6",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
@@ -102,42 +102,42 @@
     },
     {
       "posicion": "13",
-      "equipo": "SANTA CRUZ UJAF C.F.",
+      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
       "puntos_por_partido": "1,0000",
-      "puntos": "3",
-      "partidos_jugados": "1",
+      "puntos": "4",
+      "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "14",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "1,0000",
+      "equipo": "SANTA CRUZ UJAF C.F.",
+      "puntos_por_partido": "0,7500",
       "puntos": "3",
-      "partidos_jugados": "0",
-      "es_cds": true
+      "partidos_jugados": "2",
+      "es_cds": false
     },
     {
       "posicion": "15",
       "equipo": "C.F. ALOVERA",
-      "puntos_por_partido": "0,3333",
+      "puntos_por_partido": "0,2500",
       "puntos": "1",
       "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "16",
-      "equipo": "C.D. BARGAS",
-      "puntos_por_partido": "0,3333",
+      "equipo": "C.D. PANTOJA",
+      "puntos_por_partido": "0,2500",
       "puntos": "1",
       "partidos_jugados": "2",
       "es_cds": false
     },
     {
       "posicion": "17",
-      "equipo": "C.D. PANTOJA",
+      "equipo": "C.D. BARGAS",
       "puntos_por_partido": "0,2500",
       "puntos": "1",
-      "partidos_jugados": "2",
+      "partidos_jugados": "3",
       "es_cds": false
     },
     {
@@ -150,27 +150,20 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "14",
-    "puntos_por_partido": "1,0000",
-    "puntos": "3",
-    "partidos_jugados": "0"
+    "posicion": "10",
+    "puntos_por_partido": "1,5000",
+    "puntos": "6",
+    "partidos_jugados": "1"
   },
   "proximo_partido": {
-    "jornada": "4",
-    "local": "C.D. SIGÜENZA",
-    "visitante": "C.D. SONSECA",
-    "fecha": "27-09-2026",
-    "hora": "17:45"
+    "jornada": "5",
+    "local": "SP. CABANILLAS",
+    "visitante": "C.D. SIGÜENZA",
+    "fecha": "04-10-2026",
+    "hora": null
   },
   "partido_suspendido": null,
   "proximos_partidos": [
-    {
-      "jornada": "5",
-      "local": "SP. CABANILLAS",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "04-10-2026",
-      "hora": null
-    },
     {
       "jornada": "6",
       "local": "C.D. SIGÜENZA",
@@ -191,18 +184,34 @@
       "visitante": "C.D. TOLEDO SAD \"B\"",
       "fecha": "25-10-2026",
       "hora": null
+    },
+    {
+      "jornada": "9",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. YUNCOS",
+      "fecha": "01-11-2026",
+      "hora": null
     }
   ],
   "ultimo_resultado": {
-    "jornada": "3",
-    "local": "ORGACEÑO C.F.",
-    "visitante": "C.D. SIGÜENZA",
-    "fecha": "20-09-2026",
-    "hora": "19:00",
-    "golesLocal": "4",
-    "golesVisitante": "1"
+    "jornada": "4",
+    "local": "C.D. SIGÜENZA",
+    "visitante": "C.D. SONSECA",
+    "fecha": "27-09-2026",
+    "hora": "17:45",
+    "golesLocal": "2",
+    "golesVisitante": "0"
   },
   "ultimos_resultados": [
+    {
+      "jornada": "3",
+      "local": "ORGACEÑO C.F.",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "20-09-2026",
+      "hora": "19:00",
+      "golesLocal": "4",
+      "golesVisitante": "1"
+    },
     {
       "jornada": "2",
       "local": "C.D. AZUQUECA SAD",
