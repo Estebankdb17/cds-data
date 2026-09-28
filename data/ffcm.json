@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-09-28T01:16:16.132Z",
+  "updated": "2026-09-28T07:52:32.634Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "SP. CABANILLAS",
     "visitante": "C.D. SIGÜENZA",
     "fecha": "04-10-2026",
-    "hora": null
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
