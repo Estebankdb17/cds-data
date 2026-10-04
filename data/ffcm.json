@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-04T18:26:32.450Z",
+  "updated": "2026-10-04T22:04:11.836Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -14,14 +14,6 @@
     },
     {
       "posicion": "2",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
-      "puntos_por_partido": "2,2500",
-      "puntos": "9",
-      "partidos_jugados": "2",
-      "es_cds": false
-    },
-    {
-      "posicion": "3",
       "equipo": "ORGACEÑO C.F.",
       "puntos_por_partido": "2,0000",
       "puntos": "10",
@@ -29,7 +21,7 @@
       "es_cds": false
     },
     {
-      "posicion": "4",
+      "posicion": "3",
       "equipo": "C.D. SONSECA",
       "puntos_por_partido": "2,0000",
       "puntos": "10",
@@ -37,7 +29,7 @@
       "es_cds": false
     },
     {
-      "posicion": "5",
+      "posicion": "4",
       "equipo": "MORA C.F.",
       "puntos_por_partido": "2,0000",
       "puntos": "10",
@@ -45,11 +37,19 @@
       "es_cds": false
     },
     {
-      "posicion": "6",
+      "posicion": "5",
       "equipo": "A.D. TORPEDO 66",
       "puntos_por_partido": "1,8000",
       "puntos": "9",
       "partidos_jugados": "1",
+      "es_cds": false
+    },
+    {
+      "posicion": "6",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "1,8000",
+      "puntos": "9",
+      "partidos_jugados": "3",
       "es_cds": false
     },
     {
@@ -118,6 +118,14 @@
     },
     {
       "posicion": "15",
+      "equipo": "C.D. BARGAS",
+      "puntos_por_partido": "0,8000",
+      "puntos": "4",
+      "partidos_jugados": "3",
+      "es_cds": false
+    },
+    {
+      "posicion": "16",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,6000",
       "puntos": "3",
@@ -125,19 +133,11 @@
       "es_cds": false
     },
     {
-      "posicion": "16",
+      "posicion": "17",
       "equipo": "C.D. ESQUIVIAS",
       "puntos_por_partido": "0,6000",
       "puntos": "3",
       "partidos_jugados": "2",
-      "es_cds": false
-    },
-    {
-      "posicion": "17",
-      "equipo": "C.D. BARGAS",
-      "puntos_por_partido": "0,2500",
-      "puntos": "1",
-      "partidos_jugados": "3",
       "es_cds": false
     },
     {
