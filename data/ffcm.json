@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-05T07:51:07.868Z",
+  "updated": "2026-10-05T16:32:34.482Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.D. SIGÜENZA",
     "visitante": "C.D. PANTOJA",
     "fecha": "11-10-2026",
-    "hora": "17:45"
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
