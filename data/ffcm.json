@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-10T10:11:59.633Z",
+  "updated": "2026-10-10T15:58:59.259Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -46,14 +46,6 @@
     },
     {
       "posicion": "6",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
-      "puntos_por_partido": "1,8000",
-      "puntos": "9",
-      "partidos_jugados": "3",
-      "es_cds": false
-    },
-    {
-      "posicion": "7",
       "equipo": "C.D. YUNCOS",
       "puntos_por_partido": "1,6000",
       "puntos": "8",
@@ -61,11 +53,19 @@
       "es_cds": false
     },
     {
-      "posicion": "8",
+      "posicion": "7",
       "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "1,6000",
       "puntos": "8",
       "partidos_jugados": "2",
+      "es_cds": false
+    },
+    {
+      "posicion": "8",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "1,5000",
+      "puntos": "9",
+      "partidos_jugados": "3",
       "es_cds": false
     },
     {
@@ -110,6 +110,14 @@
     },
     {
       "posicion": "14",
+      "equipo": "C.D. ESQUIVIAS",
+      "puntos_por_partido": "1,0000",
+      "puntos": "6",
+      "partidos_jugados": "3",
+      "es_cds": false
+    },
+    {
+      "posicion": "15",
       "equipo": "C.F. ALOVERA",
       "puntos_por_partido": "0,8000",
       "puntos": "4",
@@ -117,7 +125,7 @@
       "es_cds": false
     },
     {
-      "posicion": "15",
+      "posicion": "16",
       "equipo": "C.D. BARGAS",
       "puntos_por_partido": "0,8000",
       "puntos": "4",
@@ -125,16 +133,8 @@
       "es_cds": false
     },
     {
-      "posicion": "16",
-      "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos_por_partido": "0,6000",
-      "puntos": "3",
-      "partidos_jugados": "2",
-      "es_cds": false
-    },
-    {
       "posicion": "17",
-      "equipo": "C.D. ESQUIVIAS",
+      "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,6000",
       "puntos": "3",
       "partidos_jugados": "2",
