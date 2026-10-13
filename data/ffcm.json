@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-13T04:21:16.269Z",
+  "updated": "2026-10-13T12:17:08.302Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -159,8 +159,8 @@
     "jornada": "7",
     "local": "C.D. ESQUIVIAS",
     "visitante": "C.D. SIGÜENZA",
-    "fecha": "18-10-2026",
-    "hora": null
+    "fecha": "17-10-2026",
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
