@@ -2,14 +2,14 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-17T17:35:35.282Z",
+  "updated": "2026-10-17T19:47:43.668Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "3,0000",
-      "puntos": "18",
-      "partidos_jugados": "4",
+      "puntos": "21",
+      "partidos_jugados": "5",
       "es_cds": false
     },
     {
@@ -62,14 +62,6 @@
     },
     {
       "posicion": "8",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "1,5000",
-      "puntos": "9",
-      "partidos_jugados": "2",
-      "es_cds": true
-    },
-    {
-      "posicion": "9",
       "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
       "puntos_por_partido": "1,3333",
       "puntos": "8",
@@ -77,20 +69,28 @@
       "es_cds": false
     },
     {
-      "posicion": "10",
-      "equipo": "C.D. MADRIDEJOS",
-      "puntos_por_partido": "1,3333",
-      "puntos": "8",
-      "partidos_jugados": "3",
-      "es_cds": false
-    },
-    {
-      "posicion": "11",
+      "posicion": "9",
       "equipo": "SP. CABANILLAS",
       "puntos_por_partido": "1,2857",
       "puntos": "9",
       "partidos_jugados": "4",
       "es_cds": false
+    },
+    {
+      "posicion": "10",
+      "equipo": "C.D. ESQUIVIAS",
+      "puntos_por_partido": "1,2857",
+      "puntos": "9",
+      "partidos_jugados": "4",
+      "es_cds": false
+    },
+    {
+      "posicion": "11",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "1,2857",
+      "puntos": "9",
+      "partidos_jugados": "2",
+      "es_cds": true
     },
     {
       "posicion": "12",
@@ -110,18 +110,18 @@
     },
     {
       "posicion": "14",
-      "equipo": "C.F. ALOVERA",
-      "puntos_por_partido": "1,0000",
-      "puntos": "7",
-      "partidos_jugados": "4",
+      "equipo": "C.D. MADRIDEJOS",
+      "puntos_por_partido": "1,1429",
+      "puntos": "8",
+      "partidos_jugados": "3",
       "es_cds": false
     },
     {
       "posicion": "15",
-      "equipo": "C.D. ESQUIVIAS",
+      "equipo": "C.F. ALOVERA",
       "puntos_por_partido": "1,0000",
-      "puntos": "6",
-      "partidos_jugados": "3",
+      "puntos": "7",
+      "partidos_jugados": "4",
       "es_cds": false
     },
     {
@@ -150,27 +150,20 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "8",
-    "puntos_por_partido": "1,5000",
+    "posicion": "11",
+    "puntos_por_partido": "1,2857",
     "puntos": "9",
     "partidos_jugados": "2"
   },
   "proximo_partido": {
-    "jornada": "7",
-    "local": "C.D. ESQUIVIAS",
-    "visitante": "C.D. SIGÜENZA",
-    "fecha": "17-10-2026",
-    "hora": "17:00"
+    "jornada": "8",
+    "local": "C.D. SIGÜENZA",
+    "visitante": "C.D. TOLEDO SAD \"B\"",
+    "fecha": "25-10-2026",
+    "hora": null
   },
   "partido_suspendido": null,
   "proximos_partidos": [
-    {
-      "jornada": "8",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "C.D. TOLEDO SAD \"B\"",
-      "fecha": "25-10-2026",
-      "hora": null
-    },
     {
       "jornada": "9",
       "local": "C.D. SIGÜENZA",
@@ -191,18 +184,34 @@
       "visitante": "C.D. QUINTANAR",
       "fecha": "15-11-2026",
       "hora": null
+    },
+    {
+      "jornada": "12",
+      "local": "SANTA CRUZ UJAF C.F.",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "22-11-2026",
+      "hora": null
     }
   ],
   "ultimo_resultado": {
-    "jornada": "6",
-    "local": "C.D. SIGÜENZA",
-    "visitante": "C.D. PANTOJA",
-    "fecha": "11-10-2026",
+    "jornada": "7",
+    "local": "C.D. ESQUIVIAS",
+    "visitante": "C.D. SIGÜENZA",
+    "fecha": "17-10-2026",
     "hora": "17:00",
-    "golesLocal": "1",
-    "golesVisitante": "0"
+    "golesLocal": "3",
+    "golesVisitante": "1"
   },
   "ultimos_resultados": [
+    {
+      "jornada": "6",
+      "local": "C.D. SIGÜENZA",
+      "visitante": "C.D. PANTOJA",
+      "fecha": "11-10-2026",
+      "hora": "17:00",
+      "golesLocal": "1",
+      "golesVisitante": "0"
+    },
     {
       "jornada": "5",
       "local": "SP. CABANILLAS",
@@ -229,15 +238,6 @@
       "hora": "19:00",
       "golesLocal": "4",
       "golesVisitante": "1"
-    },
-    {
-      "jornada": "2",
-      "local": "C.D. AZUQUECA SAD",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "12-09-2026",
-      "hora": "18:00",
-      "golesLocal": "3",
-      "golesVisitante": "0"
     }
   ]
 }
