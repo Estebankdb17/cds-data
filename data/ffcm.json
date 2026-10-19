@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-19T08:13:29.476Z",
+  "updated": "2026-10-19T15:58:51.063Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.D. SIGÜENZA",
     "visitante": "C.D. TOLEDO SAD \"B\"",
     "fecha": "25-10-2026",
-    "hora": null
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
