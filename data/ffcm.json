@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-10-26T05:33:00.776Z",
+  "updated": "2026-10-26T11:46:51.779Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -159,8 +159,8 @@
     "jornada": "9",
     "local": "C.D. SIGÜENZA",
     "visitante": "C.D. YUNCOS",
-    "fecha": "01-11-2026",
-    "hora": null
+    "fecha": "31-10-2026",
+    "hora": "18:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
