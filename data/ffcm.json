@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-09T07:22:55.081Z",
+  "updated": "2026-11-09T17:55:55.150Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.D. SIGÜENZA",
     "visitante": "C.D. QUINTANAR",
     "fecha": "15-11-2026",
-    "hora": null
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
