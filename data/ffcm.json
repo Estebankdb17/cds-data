@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-13T10:15:46.849Z",
+  "updated": "2026-11-13T18:15:15.836Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -169,7 +169,7 @@
       "local": "SANTA CRUZ UJAF C.F.",
       "visitante": "C.D. SIGÜENZA",
       "fecha": "22-11-2026",
-      "hora": null
+      "hora": "16:00"
     },
     {
       "jornada": "13",
