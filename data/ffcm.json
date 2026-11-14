@@ -2,22 +2,22 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-14T12:39:29.321Z",
+  "updated": "2026-11-14T18:34:40.848Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "C.D. AZUQUECA SAD",
       "puntos_por_partido": "3,0000",
-      "puntos": "27",
-      "partidos_jugados": "6",
+      "puntos": "30",
+      "partidos_jugados": "7",
       "es_cds": false
     },
     {
       "posicion": "2",
       "equipo": "ORGACEÑO C.F.",
-      "puntos_por_partido": "2,0000",
-      "puntos": "20",
-      "partidos_jugados": "5",
+      "puntos_por_partido": "2,0909",
+      "puntos": "23",
+      "partidos_jugados": "6",
       "es_cds": false
     },
     {
@@ -39,8 +39,8 @@
     {
       "posicion": "5",
       "equipo": "A.D. TORPEDO 66",
-      "puntos_por_partido": "1,7778",
-      "puntos": "16",
+      "puntos_por_partido": "1,7000",
+      "puntos": "17",
       "partidos_jugados": "3",
       "es_cds": false
     },
@@ -55,7 +55,7 @@
     {
       "posicion": "7",
       "equipo": "MORA C.F.",
-      "puntos_por_partido": "1,6000",
+      "puntos_por_partido": "1,4545",
       "puntos": "16",
       "partidos_jugados": "5",
       "es_cds": false
@@ -78,22 +78,6 @@
     },
     {
       "posicion": "10",
-      "equipo": "SP. CABANILLAS",
-      "puntos_por_partido": "1,2000",
-      "puntos": "12",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
-      "posicion": "11",
-      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
-      "puntos_por_partido": "1,2000",
-      "puntos": "12",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
-      "posicion": "12",
       "equipo": "C.F. ALOVERA",
       "puntos_por_partido": "1,2000",
       "puntos": "12",
@@ -101,7 +85,7 @@
       "es_cds": false
     },
     {
-      "posicion": "13",
+      "posicion": "11",
       "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "1,2000",
       "puntos": "12",
@@ -109,7 +93,7 @@
       "es_cds": false
     },
     {
-      "posicion": "14",
+      "posicion": "12",
       "equipo": "C.D. SIGÜENZA",
       "puntos_por_partido": "1,2000",
       "puntos": "12",
@@ -117,11 +101,27 @@
       "es_cds": true
     },
     {
+      "posicion": "13",
+      "equipo": "SP. CABANILLAS",
+      "puntos_por_partido": "1,1818",
+      "puntos": "13",
+      "partidos_jugados": "6",
+      "es_cds": false
+    },
+    {
+      "posicion": "14",
+      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "puntos_por_partido": "1,0909",
+      "puntos": "12",
+      "partidos_jugados": "5",
+      "es_cds": false
+    },
+    {
       "posicion": "15",
       "equipo": "C.D. ESQUIVIAS",
       "puntos_por_partido": "1,0000",
-      "puntos": "10",
-      "partidos_jugados": "5",
+      "puntos": "11",
+      "partidos_jugados": "6",
       "es_cds": false
     },
     {
@@ -135,8 +135,8 @@
     {
       "posicion": "17",
       "equipo": "SANTA CRUZ UJAF C.F.",
-      "puntos_por_partido": "0,6000",
-      "puntos": "6",
+      "puntos_por_partido": "0,6364",
+      "puntos": "7",
       "partidos_jugados": "5",
       "es_cds": false
     },
@@ -150,7 +150,7 @@
     }
   ],
   "posicion_cds": {
-    "posicion": "14",
+    "posicion": "12",
     "puntos_por_partido": "1,2000",
     "puntos": "12",
     "partidos_jugados": "4"
