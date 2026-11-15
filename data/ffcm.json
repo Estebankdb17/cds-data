@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-15T10:05:31.255Z",
+  "updated": "2026-11-15T17:29:16.108Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -23,17 +23,17 @@
     {
       "posicion": "3",
       "equipo": "C.D. SONSECA",
-      "puntos_por_partido": "2,0000",
-      "puntos": "20",
-      "partidos_jugados": "5",
+      "puntos_por_partido": "2,0909",
+      "puntos": "23",
+      "partidos_jugados": "6",
       "es_cds": false
     },
     {
       "posicion": "4",
       "equipo": "C.D. YUNCOS",
-      "puntos_por_partido": "1,8000",
-      "puntos": "18",
-      "partidos_jugados": "5",
+      "puntos_por_partido": "1,9091",
+      "puntos": "21",
+      "partidos_jugados": "6",
       "es_cds": false
     },
     {
@@ -47,7 +47,7 @@
     {
       "posicion": "6",
       "equipo": "MAGÁN C.F.",
-      "puntos_por_partido": "1,7000",
+      "puntos_por_partido": "1,5455",
       "puntos": "17",
       "partidos_jugados": "5",
       "es_cds": false
@@ -127,7 +127,7 @@
     {
       "posicion": "16",
       "equipo": "C.D. BARGAS",
-      "puntos_por_partido": "0,9000",
+      "puntos_por_partido": "0,8182",
       "puntos": "9",
       "partidos_jugados": "6",
       "es_cds": false
