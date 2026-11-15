@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-15T17:29:16.108Z",
+  "updated": "2026-11-15T22:14:26.427Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -54,6 +54,14 @@
     },
     {
       "posicion": "7",
+      "equipo": "C.D. TOLEDO SAD \"B\"",
+      "puntos_por_partido": "1,4545",
+      "puntos": "16",
+      "partidos_jugados": "6",
+      "es_cds": false
+    },
+    {
+      "posicion": "8",
       "equipo": "MORA C.F.",
       "puntos_por_partido": "1,4545",
       "puntos": "16",
@@ -61,47 +69,23 @@
       "es_cds": false
     },
     {
-      "posicion": "8",
+      "posicion": "9",
+      "equipo": "C.D. SIGÜENZA",
+      "puntos_por_partido": "1,3636",
+      "puntos": "15",
+      "partidos_jugados": "5",
+      "es_cds": true
+    },
+    {
+      "posicion": "10",
       "equipo": "C.D. QUINTANAR",
-      "puntos_por_partido": "1,4000",
+      "puntos_por_partido": "1,2727",
       "puntos": "14",
       "partidos_jugados": "5",
       "es_cds": false
     },
     {
-      "posicion": "9",
-      "equipo": "C.D. TOLEDO SAD \"B\"",
-      "puntos_por_partido": "1,3000",
-      "puntos": "13",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
-      "posicion": "10",
-      "equipo": "C.F. ALOVERA",
-      "puntos_por_partido": "1,2000",
-      "puntos": "12",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
       "posicion": "11",
-      "equipo": "C.D. MADRIDEJOS",
-      "puntos_por_partido": "1,2000",
-      "puntos": "12",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
-      "posicion": "12",
-      "equipo": "C.D. SIGÜENZA",
-      "puntos_por_partido": "1,2000",
-      "puntos": "12",
-      "partidos_jugados": "4",
-      "es_cds": true
-    },
-    {
-      "posicion": "13",
       "equipo": "SP. CABANILLAS",
       "puntos_por_partido": "1,1818",
       "puntos": "13",
@@ -109,8 +93,24 @@
       "es_cds": false
     },
     {
-      "posicion": "14",
+      "posicion": "12",
       "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "puntos_por_partido": "1,0909",
+      "puntos": "12",
+      "partidos_jugados": "5",
+      "es_cds": false
+    },
+    {
+      "posicion": "13",
+      "equipo": "C.F. ALOVERA",
+      "puntos_por_partido": "1,0909",
+      "puntos": "12",
+      "partidos_jugados": "5",
+      "es_cds": false
+    },
+    {
+      "posicion": "14",
+      "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "1,0909",
       "puntos": "12",
       "partidos_jugados": "5",
@@ -134,43 +134,36 @@
     },
     {
       "posicion": "17",
+      "equipo": "C.D. PANTOJA",
+      "puntos_por_partido": "0,6364",
+      "puntos": "7",
+      "partidos_jugados": "6",
+      "es_cds": false
+    },
+    {
+      "posicion": "18",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,6364",
       "puntos": "7",
       "partidos_jugados": "5",
       "es_cds": false
-    },
-    {
-      "posicion": "18",
-      "equipo": "C.D. PANTOJA",
-      "puntos_por_partido": "0,4000",
-      "puntos": "4",
-      "partidos_jugados": "5",
-      "es_cds": false
     }
   ],
   "posicion_cds": {
-    "posicion": "12",
-    "puntos_por_partido": "1,2000",
-    "puntos": "12",
-    "partidos_jugados": "4"
+    "posicion": "9",
+    "puntos_por_partido": "1,3636",
+    "puntos": "15",
+    "partidos_jugados": "5"
   },
   "proximo_partido": {
-    "jornada": "11",
-    "local": "C.D. SIGÜENZA",
-    "visitante": "C.D. QUINTANAR",
-    "fecha": "15-11-2026",
-    "hora": "17:00"
+    "jornada": "12",
+    "local": "SANTA CRUZ UJAF C.F.",
+    "visitante": "C.D. SIGÜENZA",
+    "fecha": "22-11-2026",
+    "hora": "16:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
-    {
-      "jornada": "12",
-      "local": "SANTA CRUZ UJAF C.F.",
-      "visitante": "C.D. SIGÜENZA",
-      "fecha": "22-11-2026",
-      "hora": "16:00"
-    },
     {
       "jornada": "13",
       "local": "C.D. SIGÜENZA",
@@ -191,18 +184,34 @@
       "visitante": "C.D. BARGAS",
       "fecha": "13-12-2026",
       "hora": null
+    },
+    {
+      "jornada": "16",
+      "local": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "20-12-2026",
+      "hora": null
     }
   ],
   "ultimo_resultado": {
-    "jornada": "10",
-    "local": "MAGÁN C.F.",
-    "visitante": "C.D. SIGÜENZA",
-    "fecha": "08-11-2026",
-    "hora": "16:30",
-    "golesLocal": "3",
+    "jornada": "11",
+    "local": "C.D. SIGÜENZA",
+    "visitante": "C.D. QUINTANAR",
+    "fecha": "15-11-2026",
+    "hora": "17:00",
+    "golesLocal": "2",
     "golesVisitante": "1"
   },
   "ultimos_resultados": [
+    {
+      "jornada": "10",
+      "local": "MAGÁN C.F.",
+      "visitante": "C.D. SIGÜENZA",
+      "fecha": "08-11-2026",
+      "hora": "16:30",
+      "golesLocal": "3",
+      "golesVisitante": "1"
+    },
     {
       "jornada": "9",
       "local": "C.D. SIGÜENZA",
@@ -229,15 +238,6 @@
       "hora": "17:00",
       "golesLocal": "3",
       "golesVisitante": "1"
-    },
-    {
-      "jornada": "6",
-      "local": "C.D. SIGÜENZA",
-      "visitante": "C.D. PANTOJA",
-      "fecha": "11-10-2026",
-      "hora": "17:00",
-      "golesLocal": "1",
-      "golesVisitante": "0"
     }
   ]
 }
