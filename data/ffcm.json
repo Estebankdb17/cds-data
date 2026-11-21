@@ -2,13 +2,13 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-21T07:49:06.556Z",
+  "updated": "2026-11-21T21:16:30.562Z",
   "clasificacion": [
     {
       "posicion": "1",
       "equipo": "C.D. AZUQUECA SAD",
-      "puntos_por_partido": "3,0000",
-      "puntos": "30",
+      "puntos_por_partido": "2,8182",
+      "puntos": "31",
       "partidos_jugados": "7",
       "es_cds": false
     },
@@ -23,7 +23,7 @@
     {
       "posicion": "3",
       "equipo": "C.D. SONSECA",
-      "puntos_por_partido": "2,0909",
+      "puntos_por_partido": "1,9167",
       "puntos": "23",
       "partidos_jugados": "6",
       "es_cds": false
@@ -86,6 +86,14 @@
     },
     {
       "posicion": "11",
+      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
+      "puntos_por_partido": "1,2500",
+      "puntos": "15",
+      "partidos_jugados": "6",
+      "es_cds": false
+    },
+    {
+      "posicion": "12",
       "equipo": "SP. CABANILLAS",
       "puntos_por_partido": "1,1818",
       "puntos": "13",
@@ -93,16 +101,8 @@
       "es_cds": false
     },
     {
-      "posicion": "12",
-      "equipo": "C.D. CAZALEGAS - EBORA FORMACIÓN",
-      "puntos_por_partido": "1,0909",
-      "puntos": "12",
-      "partidos_jugados": "5",
-      "es_cds": false
-    },
-    {
       "posicion": "13",
-      "equipo": "C.F. ALOVERA",
+      "equipo": "C.D. MADRIDEJOS",
       "puntos_por_partido": "1,0909",
       "puntos": "12",
       "partidos_jugados": "5",
@@ -110,10 +110,10 @@
     },
     {
       "posicion": "14",
-      "equipo": "C.D. MADRIDEJOS",
-      "puntos_por_partido": "1,0909",
-      "puntos": "12",
-      "partidos_jugados": "5",
+      "equipo": "C.F. ALOVERA",
+      "puntos_por_partido": "1,0833",
+      "puntos": "13",
+      "partidos_jugados": "6",
       "es_cds": false
     },
     {
@@ -134,18 +134,18 @@
     },
     {
       "posicion": "17",
-      "equipo": "C.D. PANTOJA",
-      "puntos_por_partido": "0,6364",
-      "puntos": "7",
-      "partidos_jugados": "6",
-      "es_cds": false
-    },
-    {
-      "posicion": "18",
       "equipo": "SANTA CRUZ UJAF C.F.",
       "puntos_por_partido": "0,6364",
       "puntos": "7",
       "partidos_jugados": "5",
+      "es_cds": false
+    },
+    {
+      "posicion": "18",
+      "equipo": "C.D. PANTOJA",
+      "puntos_por_partido": "0,6364",
+      "puntos": "7",
+      "partidos_jugados": "6",
       "es_cds": false
     }
   ],
