@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-23T03:19:35.921Z",
+  "updated": "2026-11-23T13:48:06.379Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -160,7 +160,7 @@
     "local": "C.D. SIGÜENZA",
     "visitante": "C.D. MADRIDEJOS",
     "fecha": "29-11-2026",
-    "hora": null
+    "hora": "17:00"
   },
   "partido_suspendido": null,
   "proximos_partidos": [
