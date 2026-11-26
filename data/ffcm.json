@@ -2,7 +2,7 @@
   "temporada": "2026/27",
   "competicion": "Primera Autonómica Preferente",
   "grupo": 2,
-  "updated": "2026-11-25T23:51:27.706Z",
+  "updated": "2026-11-26T15:57:28.196Z",
   "clasificacion": [
     {
       "posicion": "1",
@@ -168,8 +168,8 @@
       "jornada": "14",
       "local": "A.D. TORPEDO 66",
       "visitante": "C.D. SIGÜENZA",
-      "fecha": "06-12-2026",
-      "hora": null
+      "fecha": "05-12-2026",
+      "hora": "16:30"
     },
     {
       "jornada": "15",
